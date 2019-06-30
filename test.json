@@ -1,0 +1,14 @@
+{
+    "headers": [
+        {
+            "include": "#include \"string.h\""
+        }
+    ],
+    "matching_datas": [
+        {
+            "function_name": "mai*", 
+            "post_operation": "printf(\"post\");", 
+            "pre_operation": "printf(\"pre\");"
+        }
+    ]
+}
